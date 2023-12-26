@@ -1,4 +1,4 @@
-##Siple pong game using JS, HTML and CSS
+#Siple pong game using JS, HTML and CSS
 
 To control left pad you should use W and S keys. Right pag is controlled by computer.
 
