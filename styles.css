@@ -1,0 +1,62 @@
+.pong-table {
+    width: 85vw;
+    height: 40vw;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.pong-net {
+    width: 0.1vw;
+    height: 40vw;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.left-paddle {
+    width: 1vw;
+    height: 7vw;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 17vw;
+    left: 7.6vw;
+}
+
+.right-paddle {
+    width: 1vw;
+    height: 7vw;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 17vw;
+    right: 7.6vw;
+}
+
+.ball {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 19vw;
+    left: 42vw;
+}
+
+.score {
+    font-size: 3vw;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#score-player-1 {
+    position: absolute;
+    top: 5vw;
+    left: 15vw;
+}
+
+#score-player-2 {
+    position: absolute;
+    top: 3vw;
+    right: 15vw;
+}
